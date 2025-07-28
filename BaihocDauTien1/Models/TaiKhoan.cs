@@ -9,6 +9,7 @@ namespace BaihocDauTien1.Models
         [Key]
         public int Id { get; set; }
         public string TenDangNhap { get; set; }
+        public string safalfa;
         public string MatKhau { get; set; }
     }
 }
