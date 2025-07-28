@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.card {
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.acc-img {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.acc-img:hover {
+    transform: scale(1.05);
+}
+
+.popup-img {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    flex-direction: column;
+}
+
+.popup-img img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.close-btn {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}

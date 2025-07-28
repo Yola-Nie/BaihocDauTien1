@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model TaiKhoan
+<form asp-action="Dangky" method="post" asp-controller="TaiKhoan">
+    <div>
+        <lable>Ten Dang Nhap</lable>
+        <input asp-for="TenDangNhap" />
+    </div>
+    <div>
+        <lable>Mat Khau</lable>
+        <input asp-for="MatKhau" />
+    </div>
+    <button type="submit">Dang Ky</button>
+</form>
